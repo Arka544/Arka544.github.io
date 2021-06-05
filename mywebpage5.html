@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arkaprabha Samanta|CONTACT</title>
+        <style>
+            .navbar ul{
+                list-style: none;
+                padding-right: 0%;
+                margin: 0%;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: right;
+            }
+            .navbar li{
+                display: inline-block;
+            }
+            .navbar a{
+                text-decoration: none;
+                color: #141416;
+                border-width: 50px;
+                display: block;
+                padding: 20px;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            .navbar a:hover{
+                background: #656670;
+                text-align: center;
+            }
+            #heading{text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;color: #9a9cad;}
+            #heading:hover{color: black;}
+            .contact{
+                position: relative;
+                min-height: 100vh;
+                padding: 50px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .container{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+            }
+            .container .contactinfo{
+               width: 50%;
+               display: flex;
+               flex-direction: column;
+            }
+            .container .contactinfo .box{
+               position: relative;
+               padding: 20px 0;
+               display: flex;
+            }
+            .container .contactinfo .box .icon{
+                min-width: 60px;
+                height: 60px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: 22px;
+            }
+            .container .contactinfo .box .text{
+                display: flex;
+                margin-left: 20px;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                flex-direction: column;
+                font-weight: 300;
+                color: #dfe0e9;
+            }
+            .container .contactinfo .box .text:hover{ color: #141416;}
+            .container .contactinfo .box .text h3
+            {
+                font-weight: 500;
+                color: #061336;
+
+            }
+            .contactform
+            {
+                width: 40%;
+                padding: 40px;
+                background-color: #fff;
+            }
+            .contactform h2
+            {
+                font-size: 30px;
+                color: #333;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .contactform .inputbox
+            {
+                position: relative;
+                width: 100%;
+                margin-top: 10px;
+            }
+            .contactform .inputbox input,
+            .contactform .inputbox textarea
+            {
+                width: 100%;
+                padding: 5px 0;
+                font-size: 16px;
+                margin: 10px 0;
+                border: none;
+                border-bottom: 2px solid #333;
+                outline: nb;
+                resize: none;
+            }
+            .contactform .inputbox span
+            {
+                position: absolute;
+                left: 0;
+                padding: 5px 0;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 10px 0;
+                pointer-events: none;
+                transition: 0.5s;
+                color: #666;
+            }
+            .contactform .inputbox input:focus ~ span,
+            .contactform .inputbox input:valid ~ span,
+            .contactform .inputbox textarea:focus ~ span,
+            .contactform .inputbox textarea:valid ~ span
+            {
+                color: #e91e63;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                transform: translateY(-22px)
+            }
+            .contactform .inputbox input[type="submit"]
+            {
+                width: 100px;
+                background: #00bcd4;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 18px;
+            }
+            body{background:url(contactme.jpg); width: 100%; height: 100%;}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="mywebpage2.html">ABOUT</a></li>
+                <li><a href="mywebpage3.html">SKILLS</a></li>
+                <li><a href="mywebpage4.html">PROJECTS</a></li>
+                <li><a href="mywebpage5.html">CONTACT</a></li>
+            </ul>
+       </nav>
+       <section id="heading">
+        <h1><u>CONTACT ME</u></h1>
+        <h4>---get in touch---</h4>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text">
+                        <h3><b>Address</b></h3>
+                        <P>Kolkata, West Bengal, India</P>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3><b>Phone No.</b></h3>
+                        <P>+91-7407772383 / +91-6291654037</P>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3><b>Email</b></h3>
+                        <P>arkaprabhasamanta56@gmail.com</P>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Message...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
